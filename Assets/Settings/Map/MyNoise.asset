@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78ca45db568d7be44a6109f4630ff93b, type: 3}
+  m_Name: MyNoise
+  m_EditorClassIdentifier: 
+  noiseType: 3
+  scale: 14.09
+  offsetSeed: 21
+  octaves: 4
+  frequency: 0.08
+  persistance: 0.368
+  gain: 0.379
+  lacunarity: 1.2
+  fixedOffsetX: 50.5
+  fixedOffsetY: 87.3
+  ridgeOffset: 1.38

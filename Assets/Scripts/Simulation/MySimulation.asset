@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3e6c3c086802845b8facc56f156108, type: 3}
+  m_Name: MySimulation
+  m_EditorClassIdentifier: 
+  creatureSpawnSettings:
+  - name: Creature1
+    creatureSkills: {fileID: 11400000, guid: aaaada6fc5aab9548812cf769cc57cab, type: 2}
+    creaturePrefab: {fileID: 3088266814698356531, guid: 81cfb74da6fb99049876b1de0eb6a49c, type: 3}
+    numCreatures: 5
+  - name: Creature2
+    creatureSkills: {fileID: 11400000, guid: c1bb1d5533c84c64eb587b97883ad210, type: 2}
+    creaturePrefab: {fileID: 1475739911396480219, guid: 1e9ef9eca7d515946ade8cab8f6bfd64, type: 3}
+    numCreatures: 5
+  itemSpawnSettings:
+  - name: PowerBall
+    itemProperties: {fileID: 11400000, guid: 48c980f7008e1ef4d8ddaf83d9ca69f6, type: 2}
+    itemPrefab: {fileID: 3779946148293403904, guid: 066e4f1eb0d566c4f8b79654079c782d, type: 3}
+    numItems: 10
